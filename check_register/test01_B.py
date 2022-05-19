@@ -16,6 +16,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
 test_driver = webdriver.Chrome()
+test_driver.maximize_window()
 test_driver.get('http://hamsterbabali.com/')
 test_driver.implicitly_wait(4)
 

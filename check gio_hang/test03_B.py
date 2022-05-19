@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 
 
 test_driver = webdriver.Chrome()
+test_driver.maximize_window()
+
 
 # Di chuyển đến địa chỉ "http://hamsterbabali.com/"
 test_driver.get('http://hamsterbabali.com/')
